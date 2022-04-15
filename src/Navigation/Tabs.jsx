@@ -12,6 +12,7 @@ import HomeScreen from "../components/HomeScreen";
 import TicketScreen from "../components/TicketScreen";
 import FolderScreen from "../components/FolderScreen";
 import SettingsScreen from "../components/SettingsScreen";
+import CourseList from "../components/CourseList";
 
 const Tab = createBottomTabNavigator();
 
@@ -27,7 +28,7 @@ const Tabs = () => {
           left: 20,
           right: 20,
           elevation: 0,
-          backgroundColor: "#000000",
+          backgroundColor: "#cbd5e1",
           borderRadius: 15,
           height: 75,
           ...styles.shadow,
@@ -37,6 +38,7 @@ const Tabs = () => {
       <Tab.Screen
         name="home"
         component={HomeScreen}
+        // component={CourseList}
         options={{
           tabBarIcon: ({ focused }) => (
             <View
@@ -52,12 +54,12 @@ const Tabs = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? "#e32f45" : "#748c94",
+                  tintColor: focused ? "#1f2937" : "#64748b",
                   fontSize: 12,
                 }}
               />
               <Text
-                style={{ color: focused ? "#e32f45" : "#748c94", fontSize: 12 }}
+                style={{ color: focused ? "#1f2937" : "#64748b", fontSize: 12 }}
               >
                 HOME
               </Text>
@@ -83,12 +85,12 @@ const Tabs = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? "#e32f45" : "#748c94",
+                  tintColor: focused ? "#1f2937" : "#64748b",
                   fontSize: 12,
                 }}
               />
               <Text
-                style={{ color: focused ? "#e32f45" : "#748c94", fontSize: 12 }}
+                style={{ color: focused ? "#1f2937" : "#64748b", fontSize: 12 }}
               >
                 TICKET
               </Text>
@@ -114,12 +116,12 @@ const Tabs = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? "#e32f45" : "#748c94",
+                  tintColor: focused ? "#1f2937" : "#64748b",
                   fontSize: 12,
                 }}
               />
               <Text
-                style={{ color: focused ? "#e32f45" : "#748c94", fontSize: 12 }}
+                style={{ color: focused ? "#1f2937" : "#64748b", fontSize: 12 }}
               >
                 FOLDER
               </Text>
@@ -145,12 +147,12 @@ const Tabs = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? "#e32f45" : "#748c94",
+                  tintColor: focused ? "#1f2937" : "#64748b",
                   fontSize: 12,
                 }}
               />
               <Text
-                style={{ color: focused ? "#e32f45" : "#748c94", fontSize: 12 }}
+                style={{ color: focused ? "#1f2937" : "#64748b", fontSize: 12 }}
               >
                 SETTINGS
               </Text>

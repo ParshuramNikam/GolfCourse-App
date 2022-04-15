@@ -11,10 +11,10 @@ const HomeScreen = () => {
   const Stack = createNativeStackNavigator();
 
   return (
-    <SafeAreaView style={styles.screen}>
+    <SafeAreaView style={styles.centerScreen}>
       <Text style={styles.welcomeText}>WELCOME BACK</Text>
 
-      <View style={styles.centerScreen}>
+      <View>
         <View style={styles.card}>
           <TextInput
             style={styles.fieldInput}
@@ -37,10 +37,7 @@ const HomeScreen = () => {
 export default HomeScreen
 
 const styles = StyleSheet.create({
-  screen: {
-    height: '100vh',
-    paddingTop: 20
-  },  
+    
   welcomeText: {
     paddingBottom: 20,
     fontSize: '28px',
