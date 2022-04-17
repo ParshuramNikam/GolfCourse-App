@@ -40,9 +40,9 @@ const styles = StyleSheet.create({
     
   welcomeText: {
     paddingBottom: 20,
-    fontSize: '28px',
+    fontSize: 28,
     color: "#757e95",
-    fontWeight: 500,
+    fontWeight: '500',
     textAlign: 'center',
     backgroundColor: "#e9eaf0"
   },
@@ -70,8 +70,8 @@ const styles = StyleSheet.create({
   },
   inputLabel: {
     textAlign: 'center',
-    fontSize: "22.67px",
+    fontSize: 22,
     color: "#757e95",
-    fontWeight: 400
+    fontWeight: "400",
   }
 })

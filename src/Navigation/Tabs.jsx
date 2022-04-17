@@ -54,8 +54,7 @@ const Tabs = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? "#1f2937" : "#64748b",
-                  fontSize: 12,
+                  tintColor: focused ? "#1f2937" : "#64748b", 
                 }}
               />
               <Text
@@ -86,7 +85,7 @@ const Tabs = () => {
                   width: 25,
                   height: 25,
                   tintColor: focused ? "#1f2937" : "#64748b",
-                  fontSize: 12,
+      
                 }}
               />
               <Text
@@ -117,7 +116,7 @@ const Tabs = () => {
                   width: 25,
                   height: 25,
                   tintColor: focused ? "#1f2937" : "#64748b",
-                  fontSize: 12,
+    
                 }}
               />
               <Text
@@ -148,7 +147,7 @@ const Tabs = () => {
                   width: 25,
                   height: 25,
                   tintColor: focused ? "#1f2937" : "#64748b",
-                  fontSize: 12,
+             
                 }}
               />
               <Text
